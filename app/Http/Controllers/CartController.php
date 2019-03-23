@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use DB;
 use Illuminate\Http\Request;
-
+use Cart;
 class CartController extends Controller
 {
     /**
@@ -13,7 +13,9 @@ class CartController extends Controller
      */
     public function index()
     {
-        return view('shopping.cart');
+        // dd(Cart::content());
+        $photos = DB::table('products')->get();
+        return view('shopping.cart', compact('photos'));
     }
 
     /**
@@ -80,5 +82,10 @@ class CartController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function remove($id) {
+        Cart::remove($id);
+        return redirect()->back();
     }
 }

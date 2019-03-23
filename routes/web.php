@@ -26,3 +26,16 @@ Route::post('/shop', 'ShopController@store')->name('shop.store');
 
 // cart
 Route::get('/cart', 'CartController@index')->name('cart.index');
+Route::delete('/cart/remove/{id}', 'CartController@remove')->name('cart.remove');
+
+// checkout
+Route::get('/checkout', 'CheckoutController@index')->name('checkout.index');
+
+//one to many test
+Route::get('/employee','EmployeeController@index')->name('employee.index');
+
+// Route::resource('employee', 'EmployeeController');
+
+Route::get('/bus', 'BusController@index')->name('bus.index');
+Route::get('/select_bus', 'BusController@select')->name('bus.select');
+Route::get('/seats', 'BusController@seats')->name('bus.seats');
