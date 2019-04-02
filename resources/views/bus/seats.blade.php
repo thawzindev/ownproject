@@ -8,11 +8,11 @@
 			<div class="col-md-7">
 				<div class="panel panel-default" data-time-period="AM" data-operator-id="10">
 					<div class="panel-heading text-my">
-						Please select  (  ) Seats.
+						Please select seats here.
 					</div>
 					<div class="panel-body">
 						<div class="row" >
-							<div class="seatsChart col-lg-8">
+							<div class="seatsChart col-lg-10">
 								<div class="seatRow">
 									<div class="seatRowNumber">
 										Row 1
@@ -61,14 +61,14 @@
 									<div class="seatRowNumber">
 										Row 4
 									</div>
-									<div id="2_1" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">1</div>
-									<div id="2_2" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">2</div>
-									<div id="2_3" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">3</div>
-									<div id="2_4" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">4</div>
-									<div id="2_5" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">5</div>
-									<div id="2_6" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber  ">6</div>
-									<div id="2_7" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">7</div>
-									<div id="2_8" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">8</div>
+									<div id="4_1" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">1</div>
+									<div id="4_2" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">2</div>
+									<div id="4_3" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">3</div>
+									<div id="4_4" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">4</div>
+									<div id="4_5" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">5</div>
+									<div id="4_6" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber  ">6</div>
+									<div id="4_7" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">7</div>
+									<div id="4_8" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">8</div>
 
 								</div>
 
@@ -76,14 +76,14 @@
 									<div class="seatRowNumber">
 										Row 5
 									</div>
-									<div id="2_1" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">1</div>
-									<div id="2_2" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">2</div>
-									<div id="2_3" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">3</div>
-									<div id="2_4" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">4</div>
-									<div id="2_5" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">5</div>
-									<div id="2_6" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber  ">6</div>
-									<div id="2_7" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">7</div>
-									<div id="2_8" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">8</div>
+									<div id="5_1" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">1</div>
+									<div id="5_2" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">2</div>
+									<div id="5_3" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">3</div>
+									<div id="5_4" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">4</div>
+									<div id="5_5" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">5</div>
+									<div id="5_6" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber  ">6</div>
+									<div id="5_7" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">7</div>
+									<div id="5_8" role="checkbox" value="42" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">8</div>
 
 								</div>                   
 
@@ -94,10 +94,10 @@
 								</div>
 							</div>
 
-							<div class="checkout col-lg-offset-6">
+							<!-- <div class="checkout col-lg-offset-6">
 								<span>Subtotal: CA$</span><span class="txtSubTotal">0.00</span><br /><button id="btnCheckout" name="btnCheckout" class="btn btn-primary"> Check out </button>
 
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -113,24 +113,14 @@
 						<table class="table table-striped">
 							<tbody>
 								<tr>
-									<td class=" col-md-4 text-my">
-										Operator
-									</td>
-									<td class=" col-md-8 text-my">
-										Shwe Sin Set Kyar
-									</td>
-								</tr>
-
-								<tr>
 									<td class="col-md-4 text-my">
 										Route
 									</td>
 									<td class="col-md-8 text-my">
-
 										Yangon - Monywa
-
 									</td>
 								</tr>
+
 								<tr>
 									<td class="text-my">
 										Departure Time
@@ -139,23 +129,33 @@
 										Mar 18, 08:00 AM
 									</td>
 								</tr>
+
 								<tr>
 									<td class="text-my">
-										Arrival Time
+										Selected Seats
 									</td>
 									<td>
 										Mar 18, 08:00 PM
 									</td>
 								</tr>
 
-
+								<tr>
+								<td class="col-md-4 text-my">
+										Number of Seats
+									</td>
+									<td class="col-md-8 text-my">
+										<div class="seatsAmount">0</div>
+										<div>Seat(s)</div>
+									</td>
+								</tr>
 
 								<tr>
 									<td class="text-my">
 										Subtotal
 									</td>
 									<td>
-										54,000 MMK
+										<div class="txtSubTotal">0.00</div>
+										<div>MMK</div>
 									</td>
 								</tr>
 

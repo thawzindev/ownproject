@@ -18,7 +18,7 @@
                       var thisId = $(this).attr('id');
                       var id = thisId.split("_");
                       var price = $(this).attr('value');
-                      var seatDetails = "Row: " + id[0] + " Seat:" + id[1] + " Price:CA$:" + price;
+                      var seatDetails = "Row: " + id[0] + " Seat:" + id[1];
 
 
                       var freeSeats = parseInt($('.freeSeats').first().text());
@@ -30,7 +30,7 @@
                       }
 
                       // Adding this seat to the list
-                      var seatDetails = "Row: " + id[0] + " Seat:" + id[1] + " Price:CA$:" + price;
+                      var seatDetails = "Row: " + id[0] + " Seat:" + id[1];
                       $("#seatsList").append('<li value=' + price + ' class=' + thisId + '>' + seatDetails + "  " + "<button id='remove:" + thisId + "'+ class='btn btn-default btn-sm removeSeat' value='" + price + "'><strong>X</strong></button></li>");
                       $(this).addClass("seatSelected");
 
