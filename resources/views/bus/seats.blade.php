@@ -17,7 +17,7 @@
 									<div class="seatRowNumber">
 										Row 1
 									</div>
-									<div id="1_1" title="" role="checkbox" value="45" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">1</div>
+									<div id="1_1" title="" role="checkbox" value="45" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber">1</div>
 									<div id="1_2" role="checkbox" value="45" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">2</div>
 									<div id="1_3" role="checkbox" value="45" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber ">3</div>
 									<div id="1_4" role="checkbox" value="45" aria-checked="false" focusable="true" tabindex="-1" class=" seatNumber seatUnavailable">4</div>
@@ -135,7 +135,7 @@
 										Selected Seats
 									</td>
 									<td>
-										Mar 18, 08:00 PM
+										<span class="badge badge-pill badge-success">Success fully seated</span>
 									</td>
 								</tr>
 
@@ -168,7 +168,7 @@
 						<div class="row" id="search">
 
 							<div class="col-md-12 text-center">
-								<a href="info.html" class="myButton btn btn-success">Continue Info</a>
+								<a href="{{ route('bus.customer') }}" class="myButton btn btn-success">Continue Info</a>
 							</div>
 						</div>
 					</div>

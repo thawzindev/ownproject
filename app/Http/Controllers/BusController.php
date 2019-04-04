@@ -23,6 +23,14 @@ class BusController extends Controller
     public function seats() {
         return view('bus.seats');
     }
+
+    public function customer() {
+        return view('bus.customer');
+    }
+
+    public function guest() {
+        return view('bus.guest-customer');
+    }
     /**
      * Show the form for creating a new resource.
      *
