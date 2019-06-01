@@ -25,6 +25,7 @@ class BusController extends Controller
     }
 
     public function customer() {
+        dd(request()->all());
         return view('bus.customer');
     }
 

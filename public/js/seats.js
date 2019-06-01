@@ -31,6 +31,18 @@
 
                       // Adding this seat to the list
                       var seatDetails = "Row: " + id[0] + " Seat:" + id[1];
+
+                          var number = id[1];
+                          $(".seat").val(function() {
+                              var get_data = this.value + ',' + number;
+                              var first_car = get_data.charAt(0);
+                              if(first_car == ','){
+                                return get_data.substr(1);
+                              } else {
+                                return get_data;
+                              };
+                          });
+                     
                       $("#seatsList").append('<li value=' + price + ' class=' + thisId + '>' + seatDetails + "  " + "<button id='remove:" + thisId + "'+ class='btn btn-default btn-sm removeSeat' value='" + price + "'><strong>X</strong></button></li>");
                       $(this).addClass("seatSelected");
 
@@ -64,7 +76,7 @@
               } else
               {
                   $(this).prop('title', "Seat unavailable");
-              }
+              }txtSub
           }
           );
       // Function to refresh seats counter
@@ -78,6 +90,7 @@
           num += seatPrice;
           num = num.toString();
           $('.txtSubTotal').text(num);
+          $('.amount').val(num);
       }
       // Remove seat from checkout
       function removeFromCheckout(thisSeat) {

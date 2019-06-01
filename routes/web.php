@@ -39,5 +39,5 @@ Route::get('/employee','EmployeeController@index')->name('employee.index');
 Route::get('/bus', 'BusController@index')->name('bus.index');
 Route::get('/select_bus', 'BusController@select')->name('bus.select');
 Route::get('/seats', 'BusController@seats')->name('bus.seats');
-Route::get('/customer', 'BusController@customer')->name('bus.customer');
+Route::post('/customer', 'BusController@customer')->name('bus.customer');
 Route::get('/customer/guest', 'BusController@guest')->name('bus.guest');
